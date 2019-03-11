@@ -5,7 +5,5 @@ Rails.application.routes.draw do
   get '/gallery', to: 'pages#gallery'
   get '/tours', to: 'pages#tours'
   get '/itinerary', to: 'pages#itinerary'
-  get '/prices', to: 'pages#prices'
-  get '/info', to: 'pages#info'
   get '/contact', to: 'pages#contact'
 end
