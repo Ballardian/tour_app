@@ -1,0 +1,26 @@
+.info-card {
+  padding: 10px;
+  color: gray;
+  border: 7px solid #e8e8e8;
+  border-radius: 0px;
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: white;
+}
+
+.info-card :hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+}
+
+.info-card p{
+  color: black;
+}
+
+.info-container {
+  align-items: center;
+  text-align: center;
+}
