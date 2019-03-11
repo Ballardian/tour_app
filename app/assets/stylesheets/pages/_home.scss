@@ -1,1 +1,89 @@
 // Specific CSS for your home-page
+// Specific CSS for your home-page
+$red: #F68787;
+$orange: #F8A978;
+$yellow: #F1EB9A;
+$green: #A4F6A5;
+.main-container{
+  width: 100%;
+  // height: calc(100vh - 120px);
+  margin-bottom: 50px;
+}
+
+.padded-container{
+  // width: 100px;
+  margin-top: 50px;
+}
+
+#main-banner {
+  background-image: asset-url('taj.jpg');
+  width: 100%;
+  height: 100vh;
+  // margin-left: -270px;
+  background-size: cover;
+  top: 0;
+  z-index: -1;
+}
+
+.darken-overlay {
+  width: 100%;
+  height: 100%;
+  // min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.30);
+}
+
+.wrapper .btn-medium{
+  font-size: 25px;
+  opacity: 1;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 19px;
+  font-weight: bolder;
+  margin-bottom: 12px;
+  width: 208px;
+  padding-left: 33px;
+}
+
+.main-banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  h1 {
+    color: white;
+    font-size: 4vmin;
+  }
+  p {
+    color: white;
+  }
+}
+
+#banner-typed-text {
+  color: white;
+  font-size: 36px;
+  font-family: "Raleway", "sans-serif";
+}
+
+.overview-icon {
+  font-size: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.home-font {
+  font-size: 24px;
+}
+
+.home-top {
+  margin: 50px;
+}
+
+
+.home-bottom {
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+}
