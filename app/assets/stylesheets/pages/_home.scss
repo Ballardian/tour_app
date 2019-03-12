@@ -28,3 +28,17 @@
   margin-bottom: 50px;
   padding-bottom: 10px;
 }
+
+.home-body {
+  height: 400px;
+  display: flex;
+  img {
+    width: 55%;
+    object-fit: cover;
+  }
+  .home-body-txt {
+    text-align: left;
+    vertical-align: middle;
+    padding: 75px;
+  }
+}
