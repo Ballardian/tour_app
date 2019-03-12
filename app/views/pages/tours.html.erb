@@ -1,13 +1,25 @@
-<div id="main-banner" class="darken-overlay">
-  <div class="darken-overlay">
-    <%= render 'shared/navbar' %>
-    <div class="main-banner-container">
-      <div class="wrapper">
-        <h1><span>BHAVANA EXPERIENCES</span></h1>
+<div class="container">
+  <div id="main-banner" class="darken-overlay">
+      <div class="darken-overlay">
+        <%= render 'shared/navbar' %>
+        <div class="main-banner-container">
+          <div class="wrapper">
+            <h1><span>BHAVANA EXPERIENCES</span></h1>
+           </div>
+        </div>
       </div>
-      <section id="section05" class="demo">
-        <a href="#section06"><span></span>learn more</a>
-      </section>
-    </div>
   </div>
+  <h2 class="text-center">Tours</h2>
+  <div class="product">
+    <%= image_tag "sunset.jpeg", class:"product-image hidden-xs" %>
+    <div class='product-body'>
+      <h3>Explore India With Ruby</h3>
+      <p>I want to show you that you can. By organising group trips to India I hope that you can step out of your comfort zone without compromising your comfort. I aim to create tours in which you feel safe so that you can relax and absorb the magic of India. To allow you to do so, I will be with you every step of the way.</p>
+      <br>
+      <br>
+      <%= link_to "find out more", itinerary_path, class: "link" %>
+    </div>
+    </ul>
+  </div>
+  <h4 class="text-center">More tours coming soon...</h4>
 </div>
