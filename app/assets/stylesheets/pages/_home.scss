@@ -11,7 +11,7 @@ $green: #A4F6A5;
 }
 
 .padded-container{
-  // width: 100px;
+
   margin-top: 50px;
 }
 
@@ -19,7 +19,6 @@ $green: #A4F6A5;
   background-image: asset-url('taj.jpg');
   width: 100%;
   height: 100vh;
-  // margin-left: -270px;
   background-size: cover;
   top: 0;
   z-index: -1;
@@ -61,11 +60,6 @@ $green: #A4F6A5;
   }
 }
 
-#banner-typed-text {
-  color: white;
-  font-size: 36px;
-  font-family: "Raleway", "sans-serif";
-}
 
 .overview-icon {
   font-size: 100px;
