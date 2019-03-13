@@ -19,4 +19,31 @@
 
 .nav-link {
   color: white !important;
+  border: 1px solid;
+  // border-radius: px;
+}
+
+.center {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.navbar ul {
+  padding: 0px;
+  margin: 0px;
+  // display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 30px;
+}
+
+.nav-link:hover {
+  box-shadow:  0px 0px 5px;
 }
