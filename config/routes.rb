@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/tours', to: 'pages#tours'
   get '/itinerary', to: 'pages#itinerary'
   get '/contact', to: 'pages#contact'
+  get '/info', to: 'pages#info'
 end
