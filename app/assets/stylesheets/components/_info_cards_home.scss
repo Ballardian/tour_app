@@ -1,23 +1,19 @@
 .info-card {
   padding: 10px;
-  color: gray;
-  border: 7px solid #e8e8e8;
-  border-radius: 0px;
+  color: #ff9a00;
   opacity: 1;
   margin-top: 10px;
   margin-bottom: 40px;
   text-align: center;
-  background-color: white;
 }
 
 .info-card :hover {
-  opacity: 1;
+  opacity: 0.8;
   text-decoration: none;
-  color: #999999;
 }
 
 .info-card p{
-  color: black;
+  color: #ff9a00;
 }
 
 .info-container {
