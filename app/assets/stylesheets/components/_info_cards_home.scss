@@ -3,7 +3,7 @@
   color: $orange;
   opacity: 1;
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -12,8 +12,8 @@
   text-decoration: none;
 }
 
-.info-card p{
-  color: $orange;
+.info-card p {
+  margin-top: 15px;
 }
 
 .info-container {
