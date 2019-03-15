@@ -1,0 +1,17 @@
+.map-container {
+  width: 600px;
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+}
+
+#map > div.mapboxgl-canvas-container.mapboxgl-interactive.mapboxgl-touch-drag-pan.mapboxgl-touch-zoom-rotate > canvas {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+}
