@@ -1,26 +1,18 @@
 /* Main navbar */
 
-// .navbar-wagon {
-//   background-color: transparent !important;
-//   transition: 0.5s background-color ease;
-//   height: 50px;
-//   padding: 0px 30px;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-//   width: 100%;
-//   // transition: 0.5s background-color ease;
-// }
+.navbar {
+  padding: 20px 30px;
+}
 
 .navbar-fixed-top, .navbar-fixed-bottom {
   position: absolute;
-  // position: relative !important;
   }
 
 .nav-link {
   color: white !important;
   border: 1px solid;
-  // border-radius: px;
+  width: 100px;
+  text-align: center;
 }
 
 .center {
@@ -31,17 +23,14 @@
   transform: translate(-50%, -50%);
 }
 
-
-
 .navbar ul {
   padding: 0px;
   margin: 0px;
-  // display: flex;
 }
 
 .navbar ul li {
   list-style: none;
-  margin: 30px;
+  margin: 20px;
 }
 
 .nav-link:hover {
