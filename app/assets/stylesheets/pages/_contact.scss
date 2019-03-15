@@ -1,0 +1,26 @@
+.contact-story {
+  display: flex;
+  margin: 100px 0;
+  align-items: center;
+  img {
+    height: 280px;
+    width: auto;
+    margin-right: 70px;
+  }
+}
+
+.story-content {
+  p {
+    width: 400px;
+    margin: 0 0 30px 20px;
+  }
+  i {
+    font-size: 40px;
+  }
+  .fa-quote-left {
+    margin: 0 400px 40px 0;
+  }
+  .fa-quote-right {
+    margin: 20px 0 0 400px;
+  }
+}
