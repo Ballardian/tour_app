@@ -1,26 +1,48 @@
 function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 3,
-          center: {lat: 0, lng: -180},
-          mapTypeId: 'terrain'
-        });
 
-        var flightPlanCoordinates = [
-          {lat: 37.772, lng: -122.214},
-          {lat: 21.291, lng: -157.821},
-          {lat: -18.142, lng: 178.431},
-          {lat: -27.467, lng: 153.027}
-        ];
-        var flightPath = new google.maps.Polyline({
-          path: flightPlanCoordinates,
-          geodesic: true,
-          strokeColor: '#FF0000',
-          strokeOpacity: 1.0,
-          strokeWeight: 2
-        });
+  var Delhi = {lat: 28.644800, lng: 77.216721};
+  var Amritsar = {lat: 31.63, lng: 74.87};
+  var Punjab = {lat: 30.83, lng: 76.50};
+  var Rishikesh = {lat: 30.087160, lng: 78.268112};
+  var Ashram = {lat: 30.1098, lng: 78.3122};
+  var Shivapuri = {lat: 25.424120, lng: 77.657990};
+  var Agra = {lat: 27.173891, lng: 78.042068};
 
-        flightPath.setMap(map);
-      }
+  var itineraryCoordinates = [
+    Delhi, Amritsar, Punjab, Rishikesh, Ashram, Rishikesh, Shivapuri, Agra, Delhi
+  ];
+
+  // for markers
+  var labels = '1234567';
+  var labelIndex = 0;
+
+  // create map
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 6,
+    center: Delhi,
+    mapTypeId: 'terrain'
+  });
+
+  // create polyline
+  var itinerary = new google.maps.Polyline({
+    path: itineraryCoordinates,
+    geodesic: true,
+    strokeColor: '#FF0000',
+    strokeOpacity: 0.7,
+    strokeWeight: 1.5
+  });
+
+  // create markers
+  itineraryCoordinates.forEach(function(location) {
+    var marker = new google.maps.Marker({
+      position: location,
+      label: labels[labelIndex++ % labels.length],
+      map: map
+    });
+  });
+
+  itinerary.setMap(map);
+}
 
 export { initMap };
 
