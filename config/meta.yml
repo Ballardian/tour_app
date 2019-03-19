@@ -1,0 +1,6 @@
+
+meta_product_name: "Bhavana Experiences"
+meta_title: "Bhavana Experiences - Cultivate the mind"
+meta_description: "Experience India with an experienced traveller."
+meta_image: "taj.jpg" # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
