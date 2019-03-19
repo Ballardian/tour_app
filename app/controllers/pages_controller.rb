@@ -12,7 +12,7 @@ class PagesController < ApplicationController
   end
 
   def itinerary
-    pin_markers
+    # pin_markers
   end
 
   def prices
