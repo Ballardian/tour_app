@@ -4,6 +4,5 @@ class ApplicationController < ActionController::Base
 
   def default_url_options
     { host: ENV["HOST"] || "localhost:3000" }
-    # change HOST to domain name e.g. karayoume.com
   end
 end
