@@ -25,11 +25,15 @@
 /* Modal Content (Image) */
 .modal-content {
   margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
+  // display: block;
+  max-width: 80%;
+  height: 80%;
+  // max-width: 700px;
 }
 
+.modal-content img {
+  height: 100%;
+}
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
