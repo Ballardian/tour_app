@@ -5,6 +5,8 @@ import jQuery from "jquery";
 // import homepage scroll
 import { scroll } from '../components/scroll_home';
 import { initMap } from '../plugins/init_mapbox';
+import { modal } from '../components/modal';
 
 scroll();
 initMap();
+modal();
