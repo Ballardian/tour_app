@@ -9,8 +9,6 @@ var img = document.getElementById('myImg');
 
 // var img = document.getElementsByClassName('circle');
 
-
-
 // document.getElementById('click').addEventListener('click', function(){
 //     doStuff();
 //   });
@@ -21,7 +19,6 @@ var img = document.getElementById('myImg');
 //         el.style.display = 'none';
 //     }
 //   }
-
 
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
