@@ -4,6 +4,9 @@
   margin-top: 10px;
   // margin-bottom: 50px;
   text-align: center;
+  h1 {
+    font-size: 3vw;
+  }
 }
 
 .info-card :hover {
@@ -13,12 +16,21 @@
 
 .info-card p {
   margin-top: 15px;
+  font-size: 2vw;
 }
 
 .info-container {
   align-items: center;
   text-align: center;
   h2 {
-    margin: 100px 0 50px 0;
+    margin: 0px 0 30px 0;
+    // font-size: 2.5vw;
+    font-size:calc(12px + 1.8vw);
+
+  }
+  p {
+    // font-size: 1.3vw;
+    font-size:calc(12px + 1vw);
+    opacity: 0.8;
   }
 }
