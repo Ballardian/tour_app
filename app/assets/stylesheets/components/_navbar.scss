@@ -9,6 +9,8 @@
   }
 
 .nav-link {
+  position: relative;
+
   color: white !important;
   border: 1px solid;
   width: 100px;
@@ -26,6 +28,7 @@
 .navbar ul {
   padding: 0px;
   margin: 0px;
+  position: relative;
 }
 
 .navbar ul li {
@@ -46,7 +49,10 @@
 
 .navbar-light .navbar-toggler {
   border-color: white;
-
+  background-color: #E3E4E3;
+  :hover {
+    opacity: 1;
+  }
 }
 
 .navbar-light .navbar-toggler-icon {
