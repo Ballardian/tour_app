@@ -1,6 +1,6 @@
 #tours {
   img {
-    width: 27%;
+    width: 300px;
     height: 100%;
   }
   background-color: white;
@@ -13,5 +13,26 @@
   }
   .card-product p {
     font-size: calc(12px + 0.35vw);
+  }
+  :hover {
+    background: #f7f7fa;
+    cursor: pointer;
+  }
+}
+
+#small-device-only {
+  line-height: 1.7;
+  // background-color: white;
+  :hover {
+    // background: #f7f7fa;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  p {
+    color: grey;
+    text-align: center;
+  }
+  h3 {
+    margin: auto;
   }
 }

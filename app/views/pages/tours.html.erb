@@ -28,22 +28,34 @@
     </div>
     </ul>
   </div>
-<div class="home-body">
-  <div class="card-product" id="tours">
-     <%= image_tag "goldentemplenight.jpg" %>
-    <div class="card-product-infos">
-      <div class='product-body'>
-      <h3><strong>Experience India With Ruby</strong></h3>
-        <p>I want to show you that you can. By organising group trips to India I hope that you can step out of your comfort zone without compromising your comfort. I aim to create tours in which you feel safe so that you can relax and absorb the magic of India. To allow you to do so, I will be with you every step of the way.</p>
-      <br>
-      <br>
-      <%= link_to "find out more", itinerary_path, class: "link" %>
-      </div>
+
+
+  <div class="d-none d-md-block">
+    <div class="home-body">
+      <div class="card-product" id="tours">
+         <%= image_tag "street.jpg" %>
+        <div class="card-product-infos">
+          <div class='product-body'>
+            <h3><strong>Experience India With Ruby</strong></h3>
+              <p>I want to show you that you can. By organising group trips to India I hope that you can step out of your comfort zone without compromising your comfort. I aim to create tours in which you feel safe so that you can relax and absorb the magic of India. To allow you to do so, I will be with you every step of the way.</p>
+            <br>
+            <br>
+            <%= link_to "find out more", itinerary_path, class: "link" %>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
-</div>
-  <h4 class="text-center" style="margin: 50px">More tours coming soon...</h4>
+  <div class="d-md-none">
+    <div class="home-body" id="small-device-only">
+      <%= image_tag "street.jpg" %><br>
+        <h3><strong>Experience India With Ruby</strong></h3><br><br>
+          <p>I want to show you that you can. By organising group trips to India I hope that you can step out of your comfort zone without compromising your comfort. I aim to create tours in which you feel safe so that you can relax and absorb the magic of India. To allow you to do so, I will be with you every step of the way.</p>
+          <%= link_to "find out more", itinerary_path, class: "link" %>
+    </div>
+  </div>
 
+    <h4 class="text-center" style="margin: 50px">More tours coming soon...</h4>
 </div>
 
 
