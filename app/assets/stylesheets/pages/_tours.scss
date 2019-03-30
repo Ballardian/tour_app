@@ -1,0 +1,17 @@
+#tours {
+  img {
+    width: 27%;
+    height: 100%;
+  }
+  background-color: white;
+  .card-product-infos {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .product-body {
+    line-height: 1.7;
+  }
+  .card-product p {
+    font-size: calc(12px + 0.35vw);
+  }
+}
