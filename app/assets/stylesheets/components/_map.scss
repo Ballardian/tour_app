@@ -1,5 +1,5 @@
 .map-container {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 
 .mapboxgl-popup {
@@ -11,8 +11,10 @@
 }
 
 #map {
-  width: 600px;
-  height: 400px;
+  width: 60%;
+  height: 40vh;
+  border: 1px solid;
+  margin: auto;
 }
 
 #bodyContent {

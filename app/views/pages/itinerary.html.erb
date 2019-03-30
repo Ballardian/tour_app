@@ -12,9 +12,29 @@
   </div>
 </div>
 <section id="section06">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="content-container">
-    <div class="inner-content">
-      <div class="text-box">
         <i class="fas fa-train orange icon" style="margin: 10px 0"></i><br>
         <h3 class="orange">India</h3><br>
         <h5 class="orange">10 day trip to North India, uniting like-minded people over their desire to travel and experience a new country and culture.</h5><br>
@@ -23,7 +43,7 @@
         </small>
         </p>
         <br>
-        <br>
+
         <p class="orange"><strong>Upcoming Dates</strong></p>
         <p><small>15th September - 25th September 2019</small></p>
         <br>
@@ -31,41 +51,29 @@
         <p><small><strong>Single Occupancy : </strong>  64,800 Rupees (Approx. £720) </small></p>
         <p><small><strong> Double Occupancy : </strong>  54,000 Rupees per person (Approx. £600pp)</small></p><br>
 
-      </div>
-      <div class="text-box">
         <div class="row">
-          <div class="col-xs-12 col-md-4">
+          <div class="col-xs-6 col-md-4">
             <div class="info-card orange">
               <h1><i class="fas fa-map-marker-alt orange"></i></h1>
               <p><small>Starting Point</small></p>
               <p><strong>Delhi</strong></p>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4">
+          <div class="col-xs-6 col-md-4">
             <div class="info-card text-center orange">
               <h1><i class="far fa-clock"></i></h1>
               <p><small>Duration</small></p>
               <p><strong>10 days</strong></p>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4">
+          <div class="col-xs-6 col-md-4">
             <div class="info-card text-center orange">
               <h1><i class="fas fa-users"></i></h1>
               <p><small>Number of Participants</small></p>
               <p><strong>4 to 8</strong></p>
             </div>
           </div>
-  <!--         <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="info-card orange">
-              <h1><i class="fas fa-rupee-sign"></i></h1>
-              <p><small>Price</small></p>
-            </div>
-          </div> -->
-        </div>
-
-      <div class="text-box">
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
+          <div class="col-xs-6 col-md-6">
             <div class="info-card orange">
               <h1><i class="fas fa-campground"></i></h1>
               <p><small>Accomodation</small></p>
@@ -81,20 +89,13 @@
           </div>
         </div>
 
-        <div class="text-box">
+        <!-- <div class="text-box"> -->
           <p class="orange"><strong>Highlights</strong></p>
           <p><small>Enjoy delicious traditional food, sip hot chai, dip your toes in the River Ganges and try yoga in the world capital of yoga, marvel at world famous landmarks; The Golden Temple and The Taj Mahal, make new friends on the Indian railways, experience Punjabi village life, witness the India-Pakistan border closing ceremony, and much much more.</small></p>
-        </div>
-
+        <!-- </div> -->
         <div class="map-container">
-          <div
-            id="map"
-          ></div>
-  <!--      style="width: 100%; height: 400px; overflow: hidden;"
-            data-markers="<%#= @markers.to_json %>"
-            data-mapbox-api-key="<%#= ENV['MAPBOX_API_KEY'] %>" -->
-        </div><!-- /.map-container -->
-
+          <div id="map"></div>
+        </div>
         <p class="orange"><strong>Additional Costs</strong></p>
         <p><small>A visa is required to enter India. You'll need an e-visa which costs $100 (£78 approx).
         <br>Return flights are currently around £400 but are likely to increase so early booking is recommended. You are responsible for booking your own flight.
@@ -102,11 +103,21 @@
         <p class="orange"><strong>Please Note</strong></p>
         <p><small>Please note that price in British Pounds may vary depending on the exchange rate at the time of payment. The price in Rupees is fixed, pound values are only approximate.
         <br> A £50pp deposit is required to secure a place. Full balance will be due 4 weeks before departure.</small></p><br>
-
-      </div>
         <p><strong><%= link_to "Travel and Visa", info_path, class: "link" %></strong></p>
-    </div>
+
+
   </div>
 
   <%= javascript_include_tag "https://maps.google.com/maps/api/js?key=#{ENV['GOOGLE_MAPS_API_KEY']}" %>
 </section>
+  <!--         <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="info-card orange">
+              <h1><i class="fas fa-rupee-sign"></i></h1>
+              <p><small>Price</small></p>
+            </div>
+          </div> -->
+
+  <!--      style="width: 100%; height: 400px; overflow: hidden;"
+            data-markers="<%#= @markers.to_json %>"
+            data-mapbox-api-key="<%#= ENV['MAPBOX_API_KEY'] %>" -->
+        <!-- /.map-container -->
