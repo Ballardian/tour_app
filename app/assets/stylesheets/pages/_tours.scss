@@ -29,10 +29,24 @@
     cursor: pointer;
   }
   p {
+    padding-left: 15px;
+    padding-right: 15px;
     color: grey;
     text-align: center;
   }
   h3 {
     margin: auto;
+  }
+}
+
+.font-awsome-responsive {
+  h2 {
+      font-size: 3vh;
+  }
+  i {
+    font-size: 8vh;
+  }
+  .inner-content {
+    padding: 0 0 0 0;
   }
 }
