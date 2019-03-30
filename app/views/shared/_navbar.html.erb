@@ -1,3 +1,11 @@
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.first-button').on('click', function () {
+      $('.animated-icon1').toggleClass('open')
+    });
+  });
+</script>
 <div class="navbar navbar-expand-md navbar-light">
   <div class="float-right">
     <a class="navbar-wagon-item">
@@ -5,7 +13,7 @@
     </a>
   </div>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <div class="animated-icon1"><span></span><span></span><span></span></div>
     </button>
 
