@@ -24,3 +24,23 @@
     margin: 20px 0 0 400px;
   }
 }
+
+.small-container {
+  p{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+  .fa-quote-right {
+    margin: 0px 0 0 150px;
+  }
+  .fa-quote-left {
+    margin: 15px 150px 0px 0;
+  }
+  width: 100%;
+}
+
+.small-container img {
+  width: 60%;
+  padding-top: 15px;
+}
