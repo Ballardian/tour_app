@@ -10,3 +10,4 @@ import { modal } from '../components/modal';
 scroll();
 initMap();
 modal();
+
