@@ -7,9 +7,9 @@
 }
 
 .demo a {
-    position: absolute;
+    position: relative;
+    top: 170px;
     bottom: 20px;
-    left: 46%;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);

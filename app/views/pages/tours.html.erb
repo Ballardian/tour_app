@@ -1,3 +1,4 @@
+<script type="text/javascript" src="js/mdb.js"></script>
 <div id="main-banner-tours" class="darken-overlay">
     <div class="darken-overlay">
       <%= render 'shared/navbar' %>
@@ -12,6 +13,7 @@
     </div>
 </div>
 <section id="section06">
+<div class="font-awsome-responsive">
   <div class="content-container">
     <div class="inner-content">
       <div class="text-box">
@@ -20,19 +22,32 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="product">
-      <%= image_tag "street.jpg", class:"product-image hidden-xs" %>
-      <div class='product-body'>
-        <h3>Experience India With Ruby</h3>
-        <p>I want to show you that you can. By organising group trips to India I hope that you can step out of your comfort zone without compromising your comfort. I aim to create tours in which you feel safe so that you can relax and absorb the magic of India. To allow you to do so, I will be with you every step of the way.</p>
-        <br>
-        <br>
-        <%= link_to "find out more", itinerary_path, class: "link" %>
-      </div>
-      </ul>
+</div>
+<div class="container">
+  <div class="d-none d-md-block">
+    <div class="home-body">
+      <div class="card-product" id="tours">
+         <%= image_tag "street.jpg" %>
+        <div class="card-product-infos">
+          <div class='product-body'>
+            <h3><strong>Experience India With Ruby</strong></h3>
+              <p>I want to show you that you can. By organising group trips to India I hope that you can step out of your comfort zone without compromising your comfort. I aim to create tours in which you feel safe so that you can relax and absorb the magic of India. To allow you to do so, I will be with you every step of the way.</p>
+            <br>
+            <br>
+            <%= link_to "find out more", itinerary_path, class: "link btn btn-warning" %>
+            </div>
+          </div>
+        </div>
     </div>
-    <h4 class="text-center" style="margin: 50px">More tours coming soon...</h4>
-
   </div>
+  <div class="d-md-none">
+    <div class="home-body" id="small-device-only">
+      <%= image_tag "street.jpg" %><br>
+        <h3><strong>Experience India With Ruby</strong></h3><br><br>
+          <p>I want to show you that you can. By organising group trips to India I hope that you can step out of your comfort zone without compromising your comfort. I aim to create tours in which you feel safe so that you can relax and absorb the magic of India. To allow you to do so, I will be with you every step of the way.</p>
+          <%= link_to "find out more", itinerary_path, class: "link btn btn-warning" %>
+    </div>
+  </div>
+    <h4 class="text-center" style="margin: 50px">More tours coming soon...</h4>
+</div>
 </section>

@@ -1,0 +1,52 @@
+#tours {
+  img {
+    width: 300px;
+    height: 100%;
+  }
+  background-color: white;
+  .card-product-infos {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .product-body {
+    line-height: 1.7;
+  }
+  .card-product p {
+    font-size: calc(12px + 0.35vw);
+  }
+  :hover {
+    background: #f7f7fa;
+    cursor: pointer;
+  }
+}
+
+#small-device-only {
+  line-height: 1.7;
+  // background-color: white;
+  :hover {
+    // background: #f7f7fa;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  p {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: grey;
+    text-align: center;
+  }
+  h3 {
+    margin: auto;
+  }
+}
+
+.font-awsome-responsive {
+  h2 {
+      font-size: 3vh;
+  }
+  i {
+    font-size: 8vh;
+  }
+  .inner-content {
+    padding: 0 0 0 0;
+  }
+}
