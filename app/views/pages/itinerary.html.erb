@@ -71,9 +71,11 @@
           <!-- <div class="text-box"> -->
             <p class="orange"><strong>Highlights</strong></p>
             <p><small>Enjoy delicious traditional food, sip hot chai, dip your toes in the River Ganges and try yoga in the world capital of yoga, marvel at world famous landmarks; The Golden Temple and The Taj Mahal, make new friends on the Indian railways, experience Punjabi village life, witness the India-Pakistan border closing ceremony, and much much more.</small></p>
-          <!-- </div> -->
-          <div class="map-container">
+          <div class="map-container d-none d-md-block">
             <div id="map"></div>
+          </div>
+          <div class="image d-md-none">
+            <%= image_tag "map"%>
           </div>
           <p class="orange"><strong>Additional Costs</strong></p>
           <p><small>A visa is required to enter India. You'll need an e-visa which costs $100 (£78 approx).
@@ -94,7 +96,3 @@
             </div>
           </div> -->
 
-  <!--      style="width: 100%; height: 400px; overflow: hidden;"
-            data-markers="<%#= @markers.to_json %>"
-            data-mapbox-api-key="<%#= ENV['MAPBOX_API_KEY'] %>" -->
-        <!-- /.map-container -->
